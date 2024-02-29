@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('aereo.jpg'); /* Immagine di sfondo */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Colore del testo */
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Sfondo semi-trasparente */
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4CAF50; /* Colore di sfondo del pulsante */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Cambia colore al passaggio del mouse */
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 8px 16px;
+    margin: 0 5px;
+  }
+}
